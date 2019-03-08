@@ -1,6 +1,6 @@
 import React from 'react';
-import Mid from 'Mid';
-import Dates from 'Dates';
+import Mid from '../components/Mid';
+import Dates from '../components/Dates';
 
 export default class EdcWeek extends React.Component {
   render() {

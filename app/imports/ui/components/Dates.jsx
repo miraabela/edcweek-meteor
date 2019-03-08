@@ -1,8 +1,8 @@
 import React from 'react';
 import { Grid } from 'semantic-ui-react';
-import Day from 'Day';
 
 export default class Dates extends React.Component {
+
   render() {
     return (
         <Grid columns={8} columns='equal' textAlign='center' style={{ margin: "15px 15px" }}>
@@ -33,4 +33,14 @@ export default class Dates extends React.Component {
         </Grid>
     );
   }
+}
+
+function Day(props) {
+  return (
+      <div>
+        <p style = {{color: 'white', marginBottom: '-5px'}}>{props.d}</p>
+        <p style = {{color: 'white', fontWeight: 'bold', fontSize: '24px', marginBottom: '-15px'}}> {props.m}</p>
+        <p style = {{color: props.c, fontWeight: 'bold', fontSize: '42px'}}>{props.n}</p>
+      </div>
+  );
 }

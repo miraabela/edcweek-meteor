@@ -1,7 +1,7 @@
 import React from 'react';
-import {  Menu, Icon } from 'semantic-ui-react';
+import { Menu, Icon } from 'semantic-ui-react';
 
-export default class SocialMenu() extends React.Component {
+export default class SocialMenu extends React.Component {
   render() {
     return (
         <Menu inverted secondary>
