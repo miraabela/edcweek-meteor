@@ -11,7 +11,7 @@ export default class Top extends React.Component {
           <List floated="right">
             <List.Item><List.Content floated="right"><SocialMenu /></List.Content></List.Item>
             <List.Item><List.Content floated="right"><h3
-                style={{ fontSize: "16px", marginBottom: "-10px", marginRight: "15px" }}>SIGN UP FOR NEWSLETTERS</h3>
+                style={{ fontSize: '16px', marginBottom: '-10px', marginRight: '15px' }}>SIGN UP FOR NEWSLETTERS</h3>
             </List.Content></List.Item>
             <List.Item><List.Content floated="right"><MainMenu/></List.Content></List.Item>
           </List>
